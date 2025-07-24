@@ -17,7 +17,7 @@ load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
 
 # Logging and intents stuff
-handler = logging.FileHandler(filename='ballz.log', encoding='utf-8', mode='w')
+handler = logging.FileHandler(filename='log.log', encoding='utf-8', mode='w')
 intents = discord.Intents.default()
 intents.members = True
 intents.message_content = True
